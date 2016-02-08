@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC202BB7-CAA2-1D72-ADC2-34C60E22F020" name="departamento">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:27:48 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_depto" id="A7AC4F2C-68E6-9030-833D-D594ED8E2677">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:27:55 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="BB32117B-1382-AABB-2338-5EAC42F1B600">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:28:06 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="0DB5A600-8495-A294-1E91-B5A2CA1CA48D">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:06:23 UTC</createdTime>
+<generatorID>CECB7EF4-4A84-E379-C94F-0A72FD0A180F</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<referedAttribute>F4B91CFA-BAA0-556A-D768-419E606E239A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="D29549D0-EC6D-6A43-E9CC-BE2569F8238A">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:13:19 UTC</createdTime>
+<generatorID>51F62BA3-92F2-6D47-2452-72079E577B01</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<referedAttribute>8F8CCD7E-FF24-6DCF-5A9D-5E33BD72D15A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3EAC15F7-4379-692F-612C-2D7C7716014B" name="departamento PK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:28:05 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7AC4F2C-68E6-9030-833D-D594ED8E2677</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

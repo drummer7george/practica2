@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8256F152-C913-4EA2-A3D9-881E36F4FC4E" name="partido">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:33:48 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_partido" id="9DD299DD-1F72-5416-0262-632CC766762E">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:33:53 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F88487F0-2DBB-32E7-1082-254B860732C8">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:34:13 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="partido" id="3F82D4A1-606D-8065-760C-AD49227E889F">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:36:50 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="28BACD51-31A8-DD7F-D094-5888068FC105">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:23:32 UTC</createdTime>
+<generatorID>9E0454E7-7AE5-051F-5994-E4DF5650F4B7</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<referedAttribute>F4B91CFA-BAA0-556A-D768-419E606E239A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F53AF1A-4734-914E-08DF-B742BE31BC64" name="partido PK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:34:07 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DD299DD-1F72-5416-0262-632CC766762E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

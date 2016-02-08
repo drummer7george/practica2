@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="DC202BB7-CAA2-1D72-ADC2-34C60E22F020" name="departamento" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B32508E9-2B30-8859-0E62-C224E162325E" name="eleccion" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3CCF2942-C254-C1AD-B901-612703C29966" name="erpm" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A14FBD2F-6233-E200-5B09-44EEDE97A5D2" name="municipio" seqName="seg_0"/>
+   <object objectType="Entity" objectID="897B5BA1-01BF-4DA2-4FCC-2B0AB2D10BDC" name="pais" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8256F152-C913-4EA2-A3D9-881E36F4FC4E" name="partido" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2D3AFF55-C16B-930D-51FA-1B602066AE3F" name="raza" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3986CE89-FA1A-493F-4EFE-D7119A2F97BF" name="region" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CECB7EF4-4A84-E379-C94F-0A72FD0A180F" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EFD81232-3B58-8ABA-CD5B-62AF80212145" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="51F62BA3-92F2-6D47-2452-72079E577B01" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5DB7380E-4195-4385-D3E4-48B4E285B4A3" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F8C7CBFF-8EC4-FDE5-1AC9-713098680FB2" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D2A9B55A-2B9C-5F26-CDBC-EBE90651BD5E" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8508A09B-15A8-63DD-FD5F-CA1F0C6F8AFE" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9E0454E7-7AE5-051F-5994-E4DF5650F4B7" name="Relation_9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

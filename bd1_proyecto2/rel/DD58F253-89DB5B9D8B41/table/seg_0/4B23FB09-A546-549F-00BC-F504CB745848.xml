@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B23FB09-A546-549F-00BC-F504CB745848" name="partido">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>8256F152-C913-4EA2-A3D9-881E36F4FC4E</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partido" id="3ED51397-B2AB-50A5-1C13-008B85FBF41A">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>9DD299DD-1F72-5416-0262-632CC766762E</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="92300558-A773-B1E0-B220-A6F7756DD1C9">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>F88487F0-2DBB-32E7-1082-254B860732C8</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="partido" id="EC0C2D6C-09AA-A510-86D4-11A3E17A2912">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>3F82D4A1-606D-8065-760C-AD49227E889F</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais_id_pais" id="83C0C2C1-8840-20DE-C37A-4D16FC677407">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>28BACD51-31A8-DD7F-D094-5888068FC105</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC3EDB7C-E0EF-5FEA-9043-0FD89348B02D" referredColumn="C9BE1BAA-94EB-5CF0-7DF0-BDB23CE7A5E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0099F844-D224-FC1B-F2D3-3F140D91A8E6" name="partido_PK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>6F53AF1A-4734-914E-08DF-B742BE31BC64</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ED51397-B2AB-50A5-1C13-008B85FBF41A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8378DCB4-E15D-3995-4CF1-F2737271C75D" name="partido_pais_FK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>9E0454E7-7AE5-051F-5994-E4DF5650F4B7</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83C0C2C1-8840-20DE-C37A-4D16FC677407"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

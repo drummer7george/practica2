@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="5758560B-151E-8C35-8805-05970E772878" name="departamento" seqName="seg_0"/>
+   <object objectType="Table" objectID="18246AC6-45F2-A8E3-508D-EC71E98FA690" name="eleccion" seqName="seg_0"/>
+   <object objectType="Table" objectID="BA35AF4B-4F1F-D86A-3217-8D11E2CB44B2" name="erpm" seqName="seg_0"/>
+   <object objectType="Table" objectID="326A98CD-5C87-3F2C-281D-B6BA43CAD473" name="municipio" seqName="seg_0"/>
+   <object objectType="Table" objectID="E5713A48-AE00-1A06-7191-BF33CC9E9D13" name="pais" seqName="seg_0"/>
+   <object objectType="Table" objectID="4B23FB09-A546-549F-00BC-F504CB745848" name="partido" seqName="seg_0"/>
+   <object objectType="Table" objectID="0CE0477D-5621-16FA-6E21-FED2165CA995" name="raza" seqName="seg_0"/>
+   <object objectType="Table" objectID="8FD54366-72B8-7ABF-274B-62097152B662" name="region" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CD47F255-542F-F45F-1807-6E7CBFB37C40" name="departamento_pais_FK" seqName="seg_0" containerID="5758560B-151E-8C35-8805-05970E772878" refContainerID="E5713A48-AE00-1A06-7191-BF33CC9E9D13"/>
+   <object objectType="FKIndexAssociation" objectID="28063077-A796-A395-CEBC-F44CF439EFE3" name="departamento_region_FK" seqName="seg_0" containerID="5758560B-151E-8C35-8805-05970E772878" refContainerID="8FD54366-72B8-7ABF-274B-62097152B662"/>
+   <object objectType="FKIndexAssociation" objectID="E49F9EC4-149E-DC23-FBDE-F16B311AACFC" name="erpm_eleccion_FK" seqName="seg_0" containerID="BA35AF4B-4F1F-D86A-3217-8D11E2CB44B2" refContainerID="18246AC6-45F2-A8E3-508D-EC71E98FA690"/>
+   <object objectType="FKIndexAssociation" objectID="C235B2D2-4006-5D54-F4F9-2B9F3F72B038" name="erpm_municipio_FK" seqName="seg_0" containerID="BA35AF4B-4F1F-D86A-3217-8D11E2CB44B2" refContainerID="326A98CD-5C87-3F2C-281D-B6BA43CAD473"/>
+   <object objectType="FKIndexAssociation" objectID="8B10BC97-3B70-46CB-ED64-9A63B8EDABD7" name="erpm_partido_FK" seqName="seg_0" containerID="BA35AF4B-4F1F-D86A-3217-8D11E2CB44B2" refContainerID="4B23FB09-A546-549F-00BC-F504CB745848"/>
+   <object objectType="FKIndexAssociation" objectID="5AF24AF4-7F3C-4D5D-B2E2-CDD51AC7B075" name="erpm_raza_FK" seqName="seg_0" containerID="BA35AF4B-4F1F-D86A-3217-8D11E2CB44B2" refContainerID="0CE0477D-5621-16FA-6E21-FED2165CA995"/>
+   <object objectType="FKIndexAssociation" objectID="908AA293-6064-08DA-C318-5871B990F333" name="municipio_departamento_FK" seqName="seg_0" containerID="326A98CD-5C87-3F2C-281D-B6BA43CAD473" refContainerID="5758560B-151E-8C35-8805-05970E772878"/>
+   <object objectType="FKIndexAssociation" objectID="FC3EDB7C-E0EF-5FEA-9043-0FD89348B02D" name="partido_pais_FK" seqName="seg_0" containerID="4B23FB09-A546-549F-00BC-F504CB745848" refContainerID="E5713A48-AE00-1A06-7191-BF33CC9E9D13"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

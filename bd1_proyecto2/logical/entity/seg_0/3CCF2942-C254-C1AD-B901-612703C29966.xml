@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CCF2942-C254-C1AD-B901-612703C29966" name="erpm">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:40:48 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="anio" id="8C5468EC-B7DA-E9FC-E07B-9539495A7012">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:58:50 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="77E5DC93-35FB-EC2C-A265-78869D404DE1">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:59:29 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analfabetos" id="BB29AF14-C312-E621-676D-725F47F27476">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:59:53 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alfabetos" id="6A34E93F-C1B9-DEB2-9A4E-3667502020EC">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:00:20 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primaria" id="5D31B18C-EE90-C3E9-1385-186C08A32C62">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:00:34 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="n_medio" id="D404F896-45F2-1D31-BC58-BCAC9368D5D5">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:00:43 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="universitarios" id="40C467D9-4A78-0AFD-602B-05231AA5AC7D">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:00:56 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido" id="00C1DB66-A386-B30F-9353-FFB4867982F0">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:14:23 UTC</createdTime>
+<generatorID>5DB7380E-4195-4385-D3E4-48B4E285B4A3</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<referedAttribute>9DD299DD-1F72-5416-0262-632CC766762E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_municipio" id="72C6EEB0-E392-FFD6-0822-77DC47D2CF88">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:14:41 UTC</createdTime>
+<generatorID>F8C7CBFF-8EC4-FDE5-1AC9-713098680FB2</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<referedAttribute>5B9F576B-A025-94C6-F484-40F36B1C1567</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_eleccion" id="612BA041-6339-491F-952D-C3218205AE55">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:14:47 UTC</createdTime>
+<generatorID>D2A9B55A-2B9C-5F26-CDBC-EBE90651BD5E</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<referedAttribute>3C482611-8628-E630-52D3-3934D4EFA2C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_raza" id="87DD9669-A994-971A-9B30-9A922443565B">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 19:15:17 UTC</createdTime>
+<generatorID>8508A09B-15A8-63DD-FD5F-CA1F0C6F8AFE</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<referedAttribute>4033CF1F-4FA0-9A33-84EC-E6F8F6B5AFE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6FE558B7-10F9-3D82-298E-C246BDA1220B" name="erp PK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-02 18:59:22 UTC</createdTime>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<engineerTo>
+<item key="DD58F253-36F7-0800-65E0-89DB5B9D8B41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C5468EC-B7DA-E9FC-E07B-9539495A7012</attributeRef>
+<attributeRef>77E5DC93-35FB-EC2C-A265-78869D404DE1</attributeRef>
+<attributeRef>00C1DB66-A386-B30F-9353-FFB4867982F0</attributeRef>
+<attributeRef>72C6EEB0-E392-FFD6-0822-77DC47D2CF88</attributeRef>
+<attributeRef>612BA041-6339-491F-952D-C3218205AE55</attributeRef>
+<attributeRef>87DD9669-A994-971A-9B30-9A922443565B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

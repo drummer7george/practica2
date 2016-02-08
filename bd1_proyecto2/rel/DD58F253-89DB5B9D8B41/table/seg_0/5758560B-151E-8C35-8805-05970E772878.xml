@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5758560B-151E-8C35-8805-05970E772878" name="departamento">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>DC202BB7-CAA2-1D72-ADC2-34C60E22F020</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_depto" id="D97C070B-9E52-98BB-44CD-68E8CDD5EA24">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>A7AC4F2C-68E6-9030-833D-D594ED8E2677</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="920B973C-D05C-DF55-97CE-6DBF881B7B4F">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>BB32117B-1382-AABB-2338-5EAC42F1B600</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais_id_pais" id="0F5B44B7-753E-FA93-32A0-715AE2EE771C">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>0DB5A600-8495-A294-1E91-B5A2CA1CA48D</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD47F255-542F-F45F-1807-6E7CBFB37C40" referredColumn="C9BE1BAA-94EB-5CF0-7DF0-BDB23CE7A5E7"/>
+</associations>
+</Column>
+<Column name="region_id_region" id="CE7B0B0E-34F2-B960-3B1F-C78759437DD9">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>D29549D0-EC6D-6A43-E9CC-BE2569F8238A</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28063077-A796-A395-CEBC-F44CF439EFE3" referredColumn="0E9FADF2-BBAC-997E-16EB-6AEB8CA75E74"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F19C2383-044E-5A41-2E91-8288E9C25409" name="departamento_PK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>3EAC15F7-4379-692F-612C-2D7C7716014B</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D97C070B-9E52-98BB-44CD-68E8CDD5EA24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CF8A91E-85D9-241A-E033-0F97ECDF726F" name="departamento_pais_FK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>CECB7EF4-4A84-E379-C94F-0A72FD0A180F</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F5B44B7-753E-FA93-32A0-715AE2EE771C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3043C3C0-54AC-0C06-78A9-43F912670EF8" name="departamento_region_FK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>51F62BA3-92F2-6D47-2452-72079E577B01</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE7B0B0E-34F2-B960-3B1F-C78759437DD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

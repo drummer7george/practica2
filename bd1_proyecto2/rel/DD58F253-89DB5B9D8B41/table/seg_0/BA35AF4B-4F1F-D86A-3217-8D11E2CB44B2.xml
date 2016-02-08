@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA35AF4B-4F1F-D86A-3217-8D11E2CB44B2" name="erpm">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>3CCF2942-C254-C1AD-B901-612703C29966</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="anio" id="2EE009EB-9F63-23D5-B238-E4FE40C20FEB">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>8C5468EC-B7DA-E9FC-E07B-9539495A7012</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="0534448B-2E27-E1C5-A741-69671B74E7B2">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>77E5DC93-35FB-EC2C-A265-78869D404DE1</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analfabetos" id="462BECC4-BAFB-589A-FB3F-501173EDA5C2">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>BB29AF14-C312-E621-676D-725F47F27476</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alfabetos" id="D963B03E-AF24-83B7-98D0-BF5406DD23A6">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>6A34E93F-C1B9-DEB2-9A4E-3667502020EC</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primaria" id="4497F32A-ADB5-8DEC-26D5-A3624F9E9A24">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>5D31B18C-EE90-C3E9-1385-186C08A32C62</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_medio" id="EB5FF73E-C717-CE9E-D623-F6EB8FF9B483">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>D404F896-45F2-1D31-BC58-BCAC9368D5D5</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="universitarios" id="C93FB4CF-589B-6C9E-FD45-B248F6C4AE7E">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>40C467D9-4A78-0AFD-602B-05231AA5AC7D</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="partido_id_partido" id="BB4FE8D0-A277-82BF-A312-F461031B5667">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>00C1DB66-A386-B30F-9353-FFB4867982F0</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B10BC97-3B70-46CB-ED64-9A63B8EDABD7" referredColumn="3ED51397-B2AB-50A5-1C13-008B85FBF41A"/>
+</associations>
+</Column>
+<Column name="municipio_id_municipio" id="B0FCCCFA-4650-203E-1A08-08BEDDD53815">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>72C6EEB0-E392-FFD6-0822-77DC47D2CF88</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C235B2D2-4006-5D54-F4F9-2B9F3F72B038" referredColumn="B9D55295-E473-CC6C-D43B-B53EF9725150"/>
+</associations>
+</Column>
+<Column name="eleccion_id_eleccion" id="901E0325-50A3-DCBB-D0B0-2D81D9140F67">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>612BA041-6339-491F-952D-C3218205AE55</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E49F9EC4-149E-DC23-FBDE-F16B311AACFC" referredColumn="3504D3EA-E2E2-76B2-0180-2F4324FAAD44"/>
+</associations>
+</Column>
+<Column name="raza_id_raza" id="04893FBD-B1CB-1118-031C-0ADE3E81F511">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>87DD9669-A994-971A-9B30-9A922443565B</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AF24AF4-7F3C-4D5D-B2E2-CDD51AC7B075" referredColumn="1246FEAD-B78F-2F13-5BF1-2F2659DBCFEB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6052D267-BF42-72B0-CE6F-B7FF8CDFA900" name="erpm_PK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>6FE558B7-10F9-3D82-298E-C246BDA1220B</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EE009EB-9F63-23D5-B238-E4FE40C20FEB"/>
+<colUsage columnID="0534448B-2E27-E1C5-A741-69671B74E7B2"/>
+<colUsage columnID="BB4FE8D0-A277-82BF-A312-F461031B5667"/>
+<colUsage columnID="B0FCCCFA-4650-203E-1A08-08BEDDD53815"/>
+<colUsage columnID="901E0325-50A3-DCBB-D0B0-2D81D9140F67"/>
+<colUsage columnID="04893FBD-B1CB-1118-031C-0ADE3E81F511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00CBCF0A-E91E-6289-83AA-C407424FA391" name="erpm_partido_FK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>5DB7380E-4195-4385-D3E4-48B4E285B4A3</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB4FE8D0-A277-82BF-A312-F461031B5667"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1A6F46B-3A37-DE10-C2F7-DB5D42623858" name="erpm_municipio_FK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>F8C7CBFF-8EC4-FDE5-1AC9-713098680FB2</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0FCCCFA-4650-203E-1A08-08BEDDD53815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32FD7413-904A-0BDE-E90C-634924C71608" name="erpm_eleccion_FK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>D2A9B55A-2B9C-5F26-CDBC-EBE90651BD5E</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="901E0325-50A3-DCBB-D0B0-2D81D9140F67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5BC3D47-D73A-D5AD-3F76-26D457B1E7DD" name="erpm_raza_FK">
+<createdBy>jr</createdBy>
+<createdTime>2015-11-03 00:09:56 UTC</createdTime>
+<generatorID>8508A09B-15A8-63DD-FD5F-CA1F0C6F8AFE</generatorID>
+<ownerDesignName>bd1_proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04893FBD-B1CB-1118-031C-0ADE3E81F511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
